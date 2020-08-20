@@ -1,0 +1,59 @@
+body{background:#a8a8a8;font-size:14px;padding:0;margin:0;}
+#content{width:940px;padding:0;margin:0 auto;}
+
+h4{margin:0 0 8px 0;}
+fieldset{border:none;}
+ul{margin:0 0 10px 0;padding:0 10px 10px 30px;}
+ul li{margin:0 0 4px 0;}
+a{text-decoration:none;color: #076742;}
+a:hover{color: #076742;}
+p{margin:0 0 10px 0;}
+
+
+#header{width:auto;height:112px;margin-bottom:-24px;}
+#header img{float:left;margin:8px 0 0 9px;}
+#header h1{color:#fff;font-size:22px;font-weight:normal;padding:1.8em 0 .5em 0;margin:0 0 0 200px;}
+#header p{font-weight:bold;color:#333;font-size:12px;padding:.15em 0;margin:0 0 0 200px;}
+
+#language{width:940px;height:24px;text-align:right;padding:0;margin:0px;}
+#language ul {float:right;list-style: none;margin:0;padding:0;height:24px;}
+#language ul li {height:19px;padding:5px 0 0 0;margin:0 10px;float: left;background:#868686;}
+#language ul li.current {background: #ccc;border-right:1px solid #676767;}
+#language a {padding:0 0 0 25px;margin:0 12px;color: #000;background: url(reason_img/cat.jpg) 0 2px no-repeat;}
+#language a:hover {color: #fff;text-decoration: none;}
+#language ul li.current a:hover {color: #000;text-decoration: none;}
+#language a#lang_0 {background: url(reason_img/cat.jpg) 0 2px no-repeat;}
+#language a#lang_1 {background: url(reason_img/esp.jpg) 0 2px no-repeat;}
+#language a#lang_2 {background: url(reason_img/eng.jpg) 0 2px no-repeat;}
+
+
+#information{width:940px;height:24px;text-align:left;padding:0;margin:0px;}
+#information ul {float:left;list-style: none;margin:0;padding:0;height:24px;}
+#information ul li {height:19px;padding:5px 0 0 0;margin:0 10px;float: left;}
+#information a {padding:0 0 0 25px;margin:0 12px;color: #000;}
+#information a:hover {color: #fff;text-decoration: none;}
+#information ul li.current a:hover {color: #000; text-decoration: none;}
+
+
+#userform {padding:20px 0 20px 18px;background:#ccc; border-right:1px solid #676767; border-left:0px solid #676767;border-bottom:1px solid #676767;}
+h2{color:#308a30;font-size:1.6em;font-weight:normal;margin:0 0 10px 3px;}
+#userform fieldset{margin:0;padding:0}
+#params{width:520px;margin:5px 0 2px 3px;border-top:1px solid #fff}
+	#params td{padding:8px 2px;border-bottom:1px solid #fff}
+	#params td input{text-align:center;margin-left:20px;}
+		#params td input#alfa_custom{margin-left:10px;}
+		#params td input#beta_custom{margin-left:10px;}
+
+#calculate{width:123px;height:30px;border:none;color:#fff;font-size:14px;margin:0 30px 0 3px;padding:0 30px;background:#22aa22 top left no-repeat;cursor:pointer;cursor:hand;}
+#clean{color:#fff;font-size:14px;margin:0 30px 0 3px;padding:0 30px;background:#aa2222 top left;}
+#clean a:hover{color: #aa2222;text-decoration: none;}
+
+#results{float:right;clear:right;margin:0px 15px 0 0;width:350px;}
+#results .output{margin:9px 0 10px 0;background-color:#fcf0ad;border: 1px solid #666;height:350px;overflow:auto;}
+#results .output h4{font-size:16px;padding:10px 0 4px 12px;border-bottom: 1px solid #666;}
+#results .output p{padding:3px 12px;font-size:14px;}
+#results ul li{ margin-left: -25px;}
+
+#about{float:right;clear:right;margin:15px 15px 0 0;width:350px;}
+#about .info{margin:9px 0 10px 0;background-color:#ccc; border: 0px solid #666;height:140px;overflow:auto;}
+#about .info p{padding:3px 12px;font-size:12px;}
